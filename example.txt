@@ -1,0 +1,32 @@
+AWESOME COBOL ADDRESS BOOK
+==========================
+
+This file is meant to be read by humans
+and to be easy to parse by COBOL programs
+as it's fixed width based, i.e. all elements
+are positioned at the same places in the file
+with regards to their relative row/column offset.
+
+The exact row/column offsets have unfortunately
+been forgotten, but should be trivial for any
+humans to manually derive, or write some kind
+of AI to automatically do the tedious job.
+
+Foo Bar             +46701234567   
+foo.bar@gmail.com             
+
+John Doe            +150512345678  
+cooldude@mail.com             
+
+Foo Bar             +3581293773    
+foo.bar@hotmail.com           
+
+The actual data might be spread out in the file,
+and have various headers, footers and crap in between
+different sections.
+
+So if we add some more entires below, they must also be found.
+
+Sven Svensson       +471020304050  
+svennis@hotmail.se            
+

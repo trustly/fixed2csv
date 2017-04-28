@@ -1,0 +1,6 @@
+CREATE OR REPLACE FUNCTION New_File_Type(_FileType text)
+RETURNS integer
+LANGUAGE sql
+AS $FUNC$
+INSERT INTO FileTypes (FileType) VALUES ($1) RETURNING FileTypeID
+$FUNC$;
